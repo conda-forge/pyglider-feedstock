@@ -17,17 +17,22 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.9
+    - setuptools >=64
+    - setuptools-scm >=8
   run:
     - bitstring
     - dask-core
     - gsw
     - netcdf4
     - pooch
-    - python >=3.6
+    - python >=3.9
     - scipy
     - xarray
-    - polars
+    - polars >=1.1
+    - bottleneck
+    - numpy
+    - dbdreader
 
 test:
   imports:
