@@ -26,7 +26,7 @@ requirements:
     - gsw
     - netcdf4
     - pooch
-    - python >= {{ python_min }}
+    - python >={{ python_min }}
     - scipy
     - xarray
     - polars >=1.1
