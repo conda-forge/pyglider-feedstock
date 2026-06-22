@@ -32,7 +32,6 @@ requirements:
     - polars >=1.1
     - bottleneck
     - numpy
-    - dbdreader
 
 test:
   imports:
