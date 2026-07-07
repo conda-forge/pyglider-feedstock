@@ -1,5 +1,5 @@
 {% set name = "pyglider" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyglider-{{ version }}.tar.gz
-  sha256: 3dda698945238ccad102abbc9d91a7c407013c825cb55d6abacdf09660a71b23
+  sha256: 435d2ad5bf5b79607dbe3671246444ae2366118fae00dd55b68f2345f96c345d
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
